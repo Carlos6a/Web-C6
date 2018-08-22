@@ -1,0 +1,227 @@
+/* Body */
+
+body {
+  font-family: 'Aldrich', sans-serif;
+}
+
+/* Barra Lateral */
+
+.lateral-col {
+  padding: 0;
+  background: #1d2731;
+  min-width: 250px;
+  min-height: 100vh;
+}
+
+.lateral-col .fijo {
+  position: fixed;
+  width: 100%;
+}
+
+.lateral-col .fijo .logo {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.lateral-col .fijo .logo img {
+  border-radius: 100px;
+  margin-left: 60px;
+}
+
+.lateral-col .fijo .menu a {
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.lateral-col .fijo .menu a:hover {
+  background: #0b3c5d;
+}
+
+.lateral-col .fijo .menu a i {
+  margin-right: 20px;
+}
+
+/* Main */
+
+.main {
+  padding: 20px 35px 0 35px;
+  background: #0b3c5d;
+}
+
+.main .fondo {
+  background: #1d2731;
+  color: #fff;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  height: 700px;
+  border-radius: 5px;
+}
+
+.main .row .titulo {
+  color: #d9b310;
+  font-size: 40px;
+  padding: 20px 0px 0px 0px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: #d9b310;
+}
+
+.main .row .texto {
+  text-align: justify;
+}
+
+/* Home */
+
+.main .home {
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+}
+
+.main .home .nombre {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.main .home a button {
+  font-size: 30px;
+  padding: 10px 30px;
+  background: linear-gradient(to bottom, #328cc1 0%, #0b3c5d 100%);
+  border: none;
+}
+
+.main .home a button:hover {
+  background: linear-gradient(to bottom, #0b3c5d 0%, #328cc1 100%);
+}
+
+.main .home .profesion {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main .home .profesion a {
+  color: #fff;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.main .home a img {
+  height: 80px;
+}
+
+.main .home .logos {
+  bottom: 0;
+  background: #fff;
+  min-height: 100px;
+  max-height: 100px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.main .home .mera a img {
+  border-radius: 100px;
+}
+
+/* Acerca de*/
+
+.main .acerca-de h2 .titulo{
+  text-align: center;
+}
+.main .acerca-de .estudios{
+  margin-top: 20px;
+  margin-bottom:50px;
+}
+.main .acerca-de .estudios .estudio h2 span {
+  font-size: 20px;
+}
+.main .acerca-de .estudios .estudio ul li span {
+  margin-right:10px;
+}
+
+.main .acerca-de .estudios .estudio h2 i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.main .acerca-de .estudios .certificacion h2 span {
+  font-size: 20px;
+}
+.main .acerca-de .estudios .certificacion ul li span {
+  margin-right:10px;
+}
+.main .acerca-de .estudios .certificacion h2 i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.main .acerca-de .skil-log .skils i {
+  font-size: 30px;
+  text-align: center;
+}
+.main .acerca-de .skil-log .skils .js {
+  color: rgba(255, 255, 255, 0.5);
+}
+.main .acerca-de .skil-log .skils .vue {
+  color: rgba(255, 255, 255, 0.5);
+}
+.main .acerca-de .skil-log .skils .node {
+  color: rgba(255, 255, 255, 0.5);
+}
+.main .acerca-de .skil-log .skils .python{
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* En el Tiempo */
+
+.main .tiempo{
+  height: 900px
+}
+.main .tiempo a{
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+  color: #328cc1;
+  font-size: 15px;
+}
+.main .tiempo  .evento{
+  color:#d9b310;
+}
+.main .tiempo ul.linea-tiempo {
+    list-style-type: none;
+    position: relative;
+}
+.main .tiempo ul.linea-tiempo:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ .main .tiempo ul.linea-tiempo > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ .main .tiempo ul.linea-tiempo > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #328cc1;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
