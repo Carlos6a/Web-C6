@@ -94,12 +94,12 @@ body {
 .main .home a button {
   font-size: 30px;
   padding: 10px 30px;
-  background: #0b3c5d ;
+  background: #0b3c5d;
   border: none;
 }
 
 .main .home a button:hover {
-  background:#0a5080;
+  background: #0a5080;
 }
 
 .main .home .profesion {
@@ -133,19 +133,22 @@ body {
 
 /* Acerca de*/
 
-.main .acerca-de h2 .titulo{
+.main .acerca-de h2 .titulo {
   text-align: center;
 }
-.main .acerca-de .estudios{
+
+.main .acerca-de .estudios {
   margin-top: 20px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
+
 .main .acerca-de .estudios .estudio h2 span {
   font-size: 20px;
   color: #d9b310;
 }
+
 .main .acerca-de .estudios .estudio ul li span {
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .main .acerca-de .estudios .estudio h2 i {
@@ -158,9 +161,11 @@ body {
   font-size: 20px;
   color: #d9b310;
 }
+
 .main .acerca-de .estudios .certificacion ul li span {
-  margin-right:10px;
+  margin-right: 10px;
 }
+
 .main .acerca-de .estudios .certificacion h2 i {
   font-size: 30px;
   margin-right: 5px;
@@ -172,61 +177,182 @@ body {
   text-align: center;
   color: #328cc1;
 }
+
 .main .acerca-de .skil-log .skils .js {
   color: rgba(50, 140, 193, 0.5);
 }
+
 .main .acerca-de .skil-log .skils .vue {
   color: rgba(50, 140, 193, 0.5);
 }
+
 .main .acerca-de .skil-log .skils .node {
   color: rgba(50, 140, 193, 0.5);
 }
-.main .acerca-de .skil-log .skils .python{
+
+.main .acerca-de .skil-log .skils .python {
   color: rgba(50, 140, 193, 0.2);
 }
 
 /* En el Tiempo */
 
-.main .tiempo{
+.main .tiempo {
   height: 900px
 }
-.main .tiempo a{
+
+.main .tiempo a {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
   color: #328cc1;
   font-size: 15px;
 }
-.main .tiempo  .evento{
-  color:#fff;
+
+.main .tiempo .evento {
+  color: #fff;
 }
+
 .main .tiempo ul.linea-tiempo {
-    list-style-type: none;
-    position: relative;
+  list-style-type: none;
+  position: relative;
 }
+
 .main .tiempo ul.linea-tiempo:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
 }
- .main .tiempo ul.linea-tiempo > li {
-    margin: 20px 0;
-    padding-left: 20px;
+
+.main .tiempo ul.linea-tiempo>li {
+  margin: 20px 0;
+  padding-left: 20px;
 }
- .main .tiempo ul.linea-tiempo > li:before {
-    content: ' ';
-    background: #0b3c5d;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #328cc1;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+
+.main .tiempo ul.linea-tiempo>li:before {
+  content: ' ';
+  background: #0b3c5d;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #328cc1;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* portafolio */
+
+.main .portafolio {
+  height: 820px
+}
+
+.main .portafolio .card {
+  margin: 10px 0px;
+  border: 0;
+}
+
+.main .portafolio .card .card-img-top {
+  border-bottom: 2px solid #dedede;
+}
+
+.main .portafolio .card a:hover {
+  text-decoration: none;
+}
+
+.main .portafolio .card .list-group .list-group-item {
+  padding: 4px 4px 0px 4px;
+  border: 0;
+}
+
+.main .portafolio .card-body {
+  padding: 5px 5px 0px 5px;
+  margin: 0px;
+}
+
+.main .portafolio .card-body h2 {
+  margin: 0px;
+}
+
+.main .portafolio .card-title {
+  color: #0b3c5d;
+  margin: 0px;
+  text-align: center;
+}
+
+.main .portafolio .card-text {
+  color: #0b3c5d;
+}
+
+.main .portafolio ul li {
+  color: #328cc1;
+  font-size: 12px;
+}
+
+.main .portafolio ul li i {
+  margin-right: 15px;
+  height: 10px;
+  width: 10px;
+}
+
+/* Blog */
+
+.main .blog .card {
+  border: 0;
+}
+
+.main .blog .card .card-title {
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.main .blog .card .card-text {
+  color: #328cc1;
+  text-align: justify;
+}
+
+.main .blog .card .card-body .boton {
+  background-color: #d9b310;
+  border: 0px;
+}
+
+.main .blog .card .card-body .boton:hover {
+  background-color: #d9b310e6;
+}
+
+/*Contacto */
+
+.main .contacto .list-group li i {
+  color: #328cc1;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+
+.main .contacto .list-group li {
+  color: #0b3c5d;
+}
+
+.main .contacto .list-group .list-group-item {
+  border: 0px;
+}
+
+.main .contacto .boton {
+  background-color: #0b3c5d;
+  border: 0px;
+}
+
+.main .contacto .boton:hover {
+  background-color: #0b3c5dcc;
+}
+
+.main .contacto form .form-group textarea{
+  min-height: 85px;
+  max-height: 300px;
 }
