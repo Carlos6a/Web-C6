@@ -94,12 +94,12 @@ body {
 .main .home a button {
   font-size: 30px;
   padding: 10px 30px;
-  background: linear-gradient(to bottom, #328cc1 0%, #0b3c5d 100%);
+  background: #0b3c5d ;
   border: none;
 }
 
 .main .home a button:hover {
-  background: linear-gradient(to bottom, #0b3c5d 0%, #328cc1 100%);
+  background:#0a5080;
 }
 
 .main .home .profesion {
@@ -142,6 +142,7 @@ body {
 }
 .main .acerca-de .estudios .estudio h2 span {
   font-size: 20px;
+  color: #d9b310;
 }
 .main .acerca-de .estudios .estudio ul li span {
   margin-right:10px;
@@ -150,10 +151,12 @@ body {
 .main .acerca-de .estudios .estudio h2 i {
   font-size: 30px;
   margin-right: 5px;
+  color: #328cc1;
 }
 
 .main .acerca-de .estudios .certificacion h2 span {
   font-size: 20px;
+  color: #d9b310;
 }
 .main .acerca-de .estudios .certificacion ul li span {
   margin-right:10px;
@@ -161,23 +164,25 @@ body {
 .main .acerca-de .estudios .certificacion h2 i {
   font-size: 30px;
   margin-right: 5px;
+  color: #328cc1;
 }
 
 .main .acerca-de .skil-log .skils i {
   font-size: 30px;
   text-align: center;
+  color: #328cc1;
 }
 .main .acerca-de .skil-log .skils .js {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(50, 140, 193, 0.5);
 }
 .main .acerca-de .skil-log .skils .vue {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(50, 140, 193, 0.5);
 }
 .main .acerca-de .skil-log .skils .node {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(50, 140, 193, 0.5);
 }
 .main .acerca-de .skil-log .skils .python{
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(50, 140, 193, 0.2);
 }
 
 /* En el Tiempo */
@@ -193,7 +198,7 @@ body {
   font-size: 15px;
 }
 .main .tiempo  .evento{
-  color:#d9b310;
+  color:#fff;
 }
 .main .tiempo ul.linea-tiempo {
     list-style-type: none;
@@ -215,7 +220,7 @@ body {
 }
  .main .tiempo ul.linea-tiempo > li:before {
     content: ' ';
-    background: white;
+    background: #0b3c5d;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
