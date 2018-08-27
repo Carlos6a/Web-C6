@@ -38,6 +38,8 @@ header .top {
   color: #fff;
   border: 0px;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header.top .col {
@@ -185,16 +187,17 @@ main .info-porta {
   padding: 50px;
   background: #121212;
   color:#fff;
+  height: auto;
 }
-main .info-porta .proyecto .card{
+main .info-porta  .card{
   border: 1px solid #0b3c5d;
   background: #242527;
+  padding-bottom: 5px;
 }
-main .info-porta .proyecto .card .card-body{
-  border-bottom: 1px solid#0b3c5d;
+main .info-porta  .card .card-body{
   padding: 5px;
 }
-main .info-porta .proyecto .card .card-title{
+main .info-porta .card .card-title{
   color:#fff;
   text-align: center;
   text-transform: uppercase;
@@ -202,19 +205,19 @@ main .info-porta .proyecto .card .card-title{
   padding: 0;
   font-size: 15px;
 }
-main .info-porta .proyecto .card  a {
+main .info-porta  .card  a {
   text-decoration: none;
 }
-main .info-porta .proyecto .card .list-group-item{
+main .info-porta  .card .list-group-item{
   background: #242527;
   border:0px;
   padding: 1px 10px;
 }
-main .info-porta .proyecto .card .list-group-item i{
+main .info-porta  .card .list-group-item i{
   margin-right: 5px;
   font-size: 15px;
 }
-main .info-porta .proyecto .card .list-group-item span{
+main .info-porta  .card .list-group-item span{
   font-size: 12px;
 }
 
