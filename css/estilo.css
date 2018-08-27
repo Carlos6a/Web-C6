@@ -163,6 +163,31 @@ main .info-acerca .skils i {
   color: #fff;
 }
 
+main .info-acerca .skils .js{
+  color: rgba(255, 255, 255, 0.5);
+}
+main .info-acerca .skils .vue{
+  color: rgba(255, 255, 255, 0.5);
+}
+main .info-acerca .skils .node{
+  color: rgba(255, 255, 255, 0.5);
+}
+main .info-acerca .skils .python{
+  color: rgba(255, 255, 255, 0.3);
+}
+
+main .info-acerca .skill-c .skill a  {
+text-decoration: none;
+cursor: default;
+}
+main .info-acerca .skill-c .skill a  span {
+color: #fff;
+}
+main .info-acerca .skill-c .skill a i {
+margin-right: 3px;
+color: #fff;
+}
+
 /* En el tiempo */
 
 main .info-edu {
@@ -180,6 +205,15 @@ main .info-edu .info-es {
   background: #242527;
   padding: 20px 10px 10px 20px;
 }
+main .info-edu .info-es .titulo {
+font-size: 20px;
+}
+main .info-edu .info-es .texto{
+font-size: 15px;
+}
+main .info-edu .info-es i {
+margin-right: 5px;
+}
 
 /* Portafolio */
 
@@ -196,6 +230,7 @@ main .info-porta  .card{
 }
 main .info-porta  .card .card-body{
   padding: 5px;
+  background: #242527;
 }
 main .info-porta .card .card-title{
   color:#fff;
