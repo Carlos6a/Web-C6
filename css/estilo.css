@@ -1,0 +1,353 @@
+/* Body */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+}
+
+/* Menú */
+
+header .menu {
+  background: #1a1a1a;;
+  border: 0px;
+}
+
+header .menu a {
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+header .menu a:hover {
+  background: #0b3c5d;
+}
+
+header .menu a i {
+  margin-right: 20px;
+}
+
+/* Top */
+
+header .top {
+  background-image: url("../img/fondo-top.jpg");
+  background-color: rgb(20, 20, 20);
+  background-blend-mode: soft-light;
+  color: #fff;
+  border: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.top .col {
+  padding: 0;
+  min-height: 50vh;
+  max-height: 50vh;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+header .top .col .imagen {
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+header .top .col .imagen img {
+  width: 170px;
+  height: 170px;
+  border-radius: 100px;
+  border: 2px solid #3e3d3d;
+  margin: 0 auto;
+}
+
+header .top .col .texto {
+  padding-top: 10px;
+}
+
+header .top .col .profesion a {
+  color: #fff;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+header .top .col .flecha a i {
+  color: #fff;
+  font-size: 35px;
+  padding-top: 20px;
+  position: relative;
+  -webkit-animation-name: rebote;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse;
+  /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+
+@keyframes rebote {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 0px;
+    top: -10px;
+  }
+  75% {
+    left: 0px;
+    top: -10px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Main */
+
+/* Acerca de */
+
+main .info-acerca {
+  background: #121212;
+  color: #fff;
+  height: auto;
+  padding: 30px 10px 30px 10px;
+}
+
+main .info-acerca .bio {
+  margin: 50px 0;
+}
+
+main .info-acerca .bio .texto {
+  padding: 10px;
+  text-align: justify;
+}
+main .info-acerca .acerca .bio .l-social a i{
+  font-size: 30px;
+  color: #fff;
+}
+main .info-acerca .bio img {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  width: 360px;
+}
+
+main .info-acerca .bio .titulo {
+  padding-left: : 10px;
+  text-align: center;
+}
+
+main .info-acerca .skils {
+  margin-left: 25%;
+}
+
+main .info-acerca .skils i {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* En el tiempo */
+
+main .info-edu {
+  background: #1b1b1b;
+  color:#fff;
+  height: auto;
+  padding: 50px;
+}
+
+/* Educación */
+
+main .info-edu .info-es {
+  border-radius: 7px;
+  border: 2px solid #0b3c5d;
+  background: #242527;
+  padding: 20px 10px 10px 20px;
+}
+
+/* Portafolio */
+
+main .info-porta {
+  padding: 50px;
+  background: #121212;
+  color:#fff;
+  height: auto;
+}
+main .info-porta  .card{
+  border: 1px solid #0b3c5d;
+  background: #242527;
+  padding-bottom: 5px;
+}
+main .info-porta  .card .card-body{
+  padding: 5px;
+}
+main .info-porta .card .card-title{
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0;
+  font-size: 15px;
+}
+main .info-porta  .card  a {
+  text-decoration: none;
+}
+main .info-porta  .card .list-group-item{
+  background: #242527;
+  border:0px;
+  padding: 1px 10px;
+}
+main .info-porta  .card .list-group-item i{
+  margin-right: 5px;
+  font-size: 15px;
+}
+main .info-porta  .card .list-group-item span{
+  font-size: 12px;
+}
+
+
+/* Blog */
+
+main .info-blog {
+  padding: 50px;
+  background: #1b1b1b;
+  color:#fff;
+}
+
+main .info-blog .card{
+  border: 1px solid #0b3c5d;
+  background: #242527;
+}
+main .info-blog .card .card-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+main .info-blog .card .boton{
+  background: #0b3c5d;
+  border: 0;
+}
+
+main .info-blog .card .boton:hover{
+  background: #072b44;
+}
+/* Contacto */
+
+main .info-contacto {
+  padding: 50px;
+  background: #121212;
+  color:#fff;
+}
+main .info-contacto .datos {
+  background:#242527;
+  color:#fff;
+  border: 1px solid #0b3c5d;
+  border-radius: 5px;
+}
+main .info-contacto .list-group .list-group-item {
+  background:#242527;
+  border:0;
+  color:#fff;
+}
+
+/* Formulario
+main .info-contacto form .form-control{
+  background:#242527;
+  border: 1px solid #0b3c5d;
+  color:#fff;
+}
+main .info-contacto form .boton{
+  background: #0b3c5d;
+  border: 0;
+}
+main .info-contacto form .boton:hover{
+  background: #072b44;
+}
+*/
+main .info-contacto .datos .list-group-item i{
+  margin-right: 5px;
+}
+main .info-contacto .datos .list-group-item i{
+  margin-right: 5px;
+}
+main .info-contacto .datos .boton i{
+  margin-right: 5px;
+  font-size: 20px;
+}
+main .info-contacto .datos .boton{
+  background: #0b3c5d;
+  border: 0;
+}
+main .info-contacto .datos .boton:hover{
+  background: #072b44;
+}
+/* Footer */
+
+footer .info-footer {
+  padding: 30px;
+  background: #1a1a1a;
+  color: #fff;
+}
+footer .info-footer a i{
+  font-size: 30px;
+  color: #fff;
+}
+
+footer .info-footer .top a i {
+  color: #fff;
+  font-size: 35px;
+  padding-top: 20px;
+  position: relative;
+  -webkit-animation-name: rebote;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-direction: reverse;
+  /* Chrome, Safari, Opera */
+  animation-name: rebote;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+
+@keyframes rebote {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 0px;
+    top: -10px;
+  }
+  75% {
+    left: 0px;
+    top: -10px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
