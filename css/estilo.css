@@ -8,7 +8,8 @@ body {
 /* Menú */
 
 header .menu {
-  background: #1a1a1a;;
+  background: #1a1a1a;
+  ;
   border: 0px;
 }
 
@@ -135,10 +136,12 @@ main .info-acerca .bio .texto {
   padding: 10px;
   text-align: justify;
 }
-main .info-acerca .acerca .bio .l-social a i{
+
+main .info-acerca .acerca .bio .l-social a i {
   font-size: 30px;
   color: #fff;
 }
+
 main .info-acerca .bio img {
   padding: .25rem;
   background-color: #fff;
@@ -162,36 +165,41 @@ main .info-acerca .skils i {
   color: #fff;
 }
 
-main .info-acerca .skils .js{
+main .info-acerca .skils .js {
   color: rgba(255, 255, 255, 0.5);
 }
-main .info-acerca .skils .vue{
+
+main .info-acerca .skils .vue {
   color: rgba(255, 255, 255, 0.5);
 }
-main .info-acerca .skils .node{
+
+main .info-acerca .skils .node {
   color: rgba(255, 255, 255, 0.5);
 }
-main .info-acerca .skils .python{
+
+main .info-acerca .skils .python {
   color: rgba(255, 255, 255, 0.3);
 }
 
-main .info-acerca .skill-c .skill a  {
-text-decoration: none;
-cursor: default;
+main .info-acerca .skill-c .skill a {
+  text-decoration: none;
+  cursor: default;
 }
-main .info-acerca .skill-c .skill a  span {
-color: #fff;
+
+main .info-acerca .skill-c .skill a span {
+  color: #fff;
 }
+
 main .info-acerca .skill-c .skill a i {
-margin-right: 3px;
-color: #fff;
+  margin-right: 3px;
+  color: #fff;
 }
 
 /* En el tiempo */
 
 main .info-edu {
   background: #1b1b1b;
-  color:#fff;
+  color: #fff;
   height: auto;
   padding: 50px;
 }
@@ -204,14 +212,17 @@ main .info-edu .info-es {
   background: #242527;
   padding: 20px 10px 10px 20px;
 }
+
 main .info-edu .info-es .titulo {
-font-size: 20px;
+  font-size: 20px;
 }
-main .info-edu .info-es .texto{
-font-size: 15px;
+
+main .info-edu .info-es .texto {
+  font-size: 15px;
 }
+
 main .info-edu .info-es i {
-margin-right: 5px;
+  margin-right: 5px;
 }
 
 /* Portafolio */
@@ -219,85 +230,96 @@ margin-right: 5px;
 main .info-porta {
   padding: 50px;
   background: #121212;
-  color:#fff;
+  color: #fff;
   height: auto;
 }
-main .info-porta  .card{
+
+main .info-porta .card {
   border: 1px solid #0b3c5d;
   background: #242527;
   padding-bottom: 5px;
 }
-main .info-porta  .card .card-body{
+
+main .info-porta .card .card-body {
   padding: 5px;
   background: #242527;
 }
-main .info-porta .card .card-title{
-  color:#fff;
+
+main .info-porta .card .card-title {
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   margin: 0px;
   padding: 0;
   font-size: 15px;
 }
-main .info-porta  .card  a {
+
+main .info-porta .card a {
   text-decoration: none;
 }
-main .info-porta  .card .list-group-item{
+
+main .info-porta .card .list-group-item {
   background: #242527;
-  border:0px;
+  border: 0px;
   padding: 1px 10px;
 }
-main .info-porta  .card .list-group-item i{
+
+main .info-porta .card .list-group-item i {
   margin-right: 5px;
   font-size: 15px;
 }
-main .info-porta  .card .list-group-item span{
+
+main .info-porta .card .list-group-item span {
   font-size: 12px;
 }
-
 
 /* Blog */
 
 main .info-blog {
   padding: 50px;
   background: #1b1b1b;
-  color:#fff;
+  color: #fff;
 }
 
-main .info-blog .card{
+main .info-blog .card {
   border: 1px solid #0b3c5d;
   background: #242527;
 }
-main .info-blog .card .card-title{
+
+main .info-blog .card .card-title {
   text-align: center;
   text-transform: uppercase;
   font-size: 15px;
 }
-main .info-blog .card .boton{
+
+main .info-blog .card .boton {
   background: #0b3c5d;
   border: 0;
 }
 
-main .info-blog .card .boton:hover{
+main .info-blog .card .boton:hover {
   background: #072b44;
 }
+
 /* Contacto */
 
 main .info-contacto {
   padding: 50px;
   background: #121212;
-  color:#fff;
+  color: #fff;
 }
+
 main .info-contacto .datos {
-  background:#242527;
-  color:#fff;
+  background: #242527;
+  color: #fff;
   border: 1px solid #0b3c5d;
   border-radius: 5px;
 }
+
 main .info-contacto .list-group .list-group-item {
-  background:#242527;
-  border:0;
-  color:#fff;
+  background: #242527;
+  border: 0;
+  color: #fff;
 }
 
 /* Formulario
@@ -314,23 +336,29 @@ main .info-contacto form .boton:hover{
   background: #072b44;
 }
 */
-main .info-contacto .datos .list-group-item i{
+
+main .info-contacto .datos .list-group-item i {
   margin-right: 5px;
 }
-main .info-contacto .datos .list-group-item i{
+
+main .info-contacto .datos .list-group-item i {
   margin-right: 5px;
 }
-main .info-contacto .datos .boton i{
+
+main .info-contacto .datos .boton i {
   margin-right: 5px;
   font-size: 20px;
 }
-main .info-contacto .datos .boton{
+
+main .info-contacto .datos .boton {
   background: #0b3c5d;
   border: 0;
 }
-main .info-contacto .datos .boton:hover{
+
+main .info-contacto .datos .boton:hover {
   background: #072b44;
 }
+
 /* Footer */
 
 footer .info-footer {
@@ -338,7 +366,8 @@ footer .info-footer {
   background: #1a1a1a;
   color: #fff;
 }
-footer .info-footer a i{
+
+footer .info-footer a i {
   font-size: 30px;
   color: #fff;
 }
