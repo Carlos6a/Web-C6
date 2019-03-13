@@ -273,39 +273,11 @@ main .info-porta .card .list-group-item span {
   font-size: 12px;
 }
 
-/* Blog */
-
-main .info-blog {
-  padding: 50px;
-  background: #1b1b1b;
-  color: #fff;
-}
-
-main .info-blog .card {
-  border: 1px solid #0b3c5d;
-  background: #242527;
-}
-
-main .info-blog .card .card-title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 15px;
-}
-
-main .info-blog .card .boton {
-  background: #0b3c5d;
-  border: 0;
-}
-
-main .info-blog .card .boton:hover {
-  background: #072b44;
-}
-
 /* Contacto */
 
 main .info-contacto {
   padding: 50px;
-  background: #121212;
+  background: #1b1b1b;
   color: #fff;
 }
 
